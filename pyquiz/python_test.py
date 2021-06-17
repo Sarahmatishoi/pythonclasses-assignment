@@ -46,12 +46,12 @@ class Rectangle():
         self.length=length
     def area(self):
         return self.length*self.width
-    area(6,8)
+    newRectangle= area(5,10)
+    print(newRectangle.area)
+
     def perimeter(self):
         return 2(self.width*self.length)
-    perimeter(2(8*6))
-   
-    x=[[1,2],[3,4],[5,6]] 
-    new_list=list(sum*(x))
-    print(new_list)   
+    newRectangle=perimeter(2(8*6))
+    print(newRectangle.perimeter)
     
+   
