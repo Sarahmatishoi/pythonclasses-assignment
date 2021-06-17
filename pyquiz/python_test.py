@@ -1,8 +1,8 @@
 x=[100,110,120,130,140,150,]
-p=[]
-for y in x:
-    p.append(y*5)
-    print(p)
+p=[y*5 for y in x]
+print(p)
+
+    
 
 def divisisble_by_three(n):
     for x in n:
@@ -18,11 +18,11 @@ def numbers():
         p.extend(list)
     print(p)
 numbers()
-# def smallest():
-#      a=[2,5,4,6,8,4]
-#      for s in a:
-#          return s.min()
-# smallest()
+
+def smallest():
+      a=[2,5,4,6,8,4]
+      print(min(a))
+smallest()
 def  letter():
     r= ['a','b','a','e','d','b','c','e','f','g','h']
     return r.sort()
@@ -44,10 +44,14 @@ class Rectangle():
     def __init__(self,width,length):
         self.width=width
         self.length=length
-    def area():
-        return 6*5
-    def perimeter():
-        return 8*6
+    def area(self):
+        return self.length*self.width
+    area(6,8)
+    def perimeter(self):
+        return 2(self.width*self.length)
+    perimeter(2(8*6))
    
-        
+    x=[[1,2],[3,4],[5,6]] 
+    new_list=list(sum*(x))
+    print(new_list)   
     
